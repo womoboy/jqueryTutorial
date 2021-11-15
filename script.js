@@ -1,7 +1,8 @@
 // jquery code
 $(document).ready(function(){
-    $("#action-btn").click(function(){
-        $("#test-text").toggle();
+    $("#action-btn").on("click", function(){
+        var inputX = $("#input-x");
+        console.log(inputX.val());
     });
 });
 
